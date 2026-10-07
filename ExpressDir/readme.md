@@ -1,15 +1,16 @@
-## Express.js Learning & Practice:
+# Express.js Learning & Practice 🚀
 
-This folder contains my learning and practice with Express.js, a Node.js web application framework. It includes examples and practice programs covering server creation, routing, request and response handling, and serving web pages.
+This folder contains my learning and practice with **Express.js**, a minimal and flexible Node.js web application framework. 
 
-## Topics Covered:
+## 📚 Topics Covered
 
-Express.js setup
-Creating a basic server
-Routes and HTTP methods
-Request and response handling
-Serving HTML pages
-Working with EJS templates
-Basic Express.js practice
+-  Express.js setup and installation
+-  Creating a basic server
+-  Routing and HTTP methods (GET, POST, PUT, DELETE)
+-  Request and response handling
+-  Serving static files and HTML pages
+-  Working with EJS templating engine
+-  Middleware basics
+-  Error handling
+-  Basic Express.js practice programs
 
-This folder will be updated as I learn and practice more Express.js concepts.
