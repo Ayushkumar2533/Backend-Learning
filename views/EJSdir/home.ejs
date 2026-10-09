@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<body>
+    <h1> this is the home page. 1+3</h1>
+    <h3><%= 1+3%></h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, reiciendis repellat? Eveniet quibusdam voluptatem numquam praesentium a facilis iusto est fugiat dolorem omnis id, hic suscipit tempora magnam, facere voluptas.</p>
+    <button>click me!</button>
+
+    // conditional statement in ejs
+
+    <% if (condition) { %>
+    <h1>Condition is true</h1>
+     <% } else { %>
+    <h1>Condition is false</h1>
+    <% } %>
+
+    //loops in ejs
+    <% for(let i = 1; i <= 5; i++) { %>
+    <h2>Hello <%= i %></h2>
+<% } %>
+
+</body>
+</html>
