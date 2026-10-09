@@ -13,5 +13,14 @@
   "dependencies": {
     "ejs": "^6.0.1",
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayushkumar2533/Backend-Learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ayushkumar2533/Backend-Learning/issues"
+  },
+  "homepage": "https://github.com/Ayushkumar2533/Backend-Learning#readme"
 }
