@@ -26,6 +26,7 @@ let posts =[
     Content:"I love freefire!"
 },
 ];
+let nextPostId = Math.max(...posts.map((post) => Number(post.id))) + 1;
 
 app.get("/posts/new",(req,res) =>{
     res.render("new.ejs");
@@ -37,17 +38,15 @@ app.get("/posts",(req,res) => {
 
 app.post("/posts", (req, res) => {
     let { username, Content } = req.body;
-    posts.push({ username, Content });
+    posts.push({ id: String(nextPostId++), username, Content });
     res.redirect("/posts");
 });
 
 app.get("/posts/:id", (req, res) => {
-    let { id } = req.params;
-    let post = posts.find((p) => id == p.id);
-    console.log(post);
-    res.send("request working");
+let { id } = req.params;
+let post = posts.find((p) => id == p.id);
+res.render("show.ejs", { post });
 });
-
 app.listen(port,() =>{
     console.log("listening to port: 8080");
 });
